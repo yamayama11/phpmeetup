@@ -18,7 +18,7 @@ class Utils
     {
         $faker = Factory::create();
         $this->println("");
-        $this->println("Fake address:");
+        $this->println("Dummy address:");
         $this->println("=============");
         $this->println($faker->firstName, $faker->lastName);
         $this->println($faker->streetName, $faker->numberBetween(1, 999));
